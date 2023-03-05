@@ -11,7 +11,7 @@ public class Board {
         blackPieces = new ArrayList<>();
 
         String[] split = FEN.split("/");
-        for (int i = 0; i < 8; i++){
+        for (int i = 7; i <= 0; i--){
             for(int j = 0; j < split.length; j++){
                 Piece newPiece = null;
                 switch (split[i].substring(j, j + 1)) {
