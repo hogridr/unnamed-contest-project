@@ -1,0 +1,216 @@
+.main-container {
+    margin-top:140px;
+    margin-left:7%; margin-right:7%;
+    display:grid;
+    grid-template-columns: 0.7fr 0.3fr;
+    column-gap: 50px;
+}
+
+.leaderboard-header {
+    height:auto;
+}
+.leaderboard-title {
+    font-size: 75px;
+    font-weight: 700;
+    display:block;
+    padding-bottom: 0;
+}
+.filters-container {
+    background-color: rgba(142, 142, 142, 0.295);
+    display:flex;
+    height:32px;
+    align-items: center;
+    column-gap: 20px;
+    vertical-align: center;
+    margin-top:20px; margin-bottom:10px;
+    padding:10px 14px 10px 14px;
+    width:fit-content;
+    border-radius: 25px;
+    font-size:32px;
+    font-family:Rubik;
+    color:rgb(221, 221, 221);
+}
+.filter-selector {
+    display: inline;
+    background-color: rgba(133, 133, 133, 0.277);
+    margin-left:10px;
+    padding:5px 8px 5px 8px;
+    font-size:20px;
+    border-radius: 15px;
+    transition:0.3s;
+}
+.filter-selector:hover {
+    background-color: rgba(216, 216, 216, 0.378);
+    cursor:pointer;
+}
+.leaderboard-search-bar {
+    background-color: rgba(133, 133, 133, 0.277);
+    margin-left:10px;
+    border:none;
+    font-size:20px;
+    height:36px;
+    width:320px;
+    border-radius: 15px;
+    transition:0.3s;
+}
+.leaderboard-search-bar:hover {
+    background-color: rgba(216, 216, 216, 0.378);
+    cursor:pointer;
+}
+
+
+
+.rankings-container {
+    margin-top:15px;
+    display:grid;
+    grid-template-columns: auto;
+}
+
+.first-place {
+    background-color: rgba(255, 221, 0, 0.7);
+    height:200px;
+    border-radius: 15px;
+    margin-bottom:15px;
+    display:grid;
+    grid-template-columns: 60px 200px 1fr;
+}
+.place-number-first {
+    border:none;
+    font-size: 50px;
+    font-family: Montserrat;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding-left:20px;
+}
+.leaderboard-pfp-first {
+    height:140px;
+    margin:30px;
+    border-radius:10%;
+}
+.leaderboard-pfp-small {
+    height:70px;
+    margin:15px;
+    border-radius:10%;
+}
+.ranking-text-container {
+    display:flex;
+    justify-content: space-between;
+}
+.player-name-first {
+    display: flex;
+    align-items: center;
+    font-size: 70px;
+    font-weight:700;
+    padding-right:30px;
+}
+.player-options-info {
+    width:100%;
+}
+.challenge-button {
+    padding:20px;
+    background-color: orange;
+    border-radius: 5px;
+    border:none;
+}
+.elo-display-first {
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    padding-right:30px;
+    font-size:70px;
+    font-weight:700;
+}
+
+.ranking {
+    background-color: rgba(138, 139, 148, 0.33);
+    height:100px;
+    border-radius: 15px;
+    margin-bottom:15px;
+    display:grid;
+    grid-template-columns: 55px 100px 1fr;
+}
+.place-number {
+    border:none;
+    font-size: 35px;
+    font-family: Montserrat;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding-left:20px;
+}
+.player-name {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color:rgb(240, 240, 240);
+    font-weight:600;
+    padding-right:30px;
+}
+.elo-display {
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    padding-right:30px;
+    font-size:50px;
+    font-weight:700;
+}
+
+
+
+
+.info-container {
+    margin: 20px;
+    border-radius: 15px;
+    background-color: rgba(138, 139, 148, 0.33);
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-container-playername {
+    font-size:60px;
+    font-weight:700;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.info-container-playerposition {
+    text-align: center;
+    font-size:50px;
+    font-weight:700;
+    margin-bottom:20px;
+    padding:5px 35px 5px 35px;
+    border-radius: 15px;
+    background-color: rgba(140, 133, 152, 0.228);
+    color:rgb(158, 158, 158);
+}
+.self-current-highest-elo {
+    font-size:90px;
+    font-family: Rubik;
+    font-weight:700;
+}
+.account-leaderboard-info {
+    margin-top:20px;
+    display:grid;
+    grid-template-columns: 5fr 1fr;
+    width:100%;
+    background-color: rgba(25, 25, 26, 0.362);
+    border-radius: 10px;
+}
+.stat-labels {
+    display:flex;
+    flex-direction: column;
+    row-gap:10px;
+    font-family: Rubik;
+    font-weight:700;
+    padding:10px;
+}
+.stat-values {
+    display:flex;
+    flex-direction: column;
+    row-gap:10px;
+    text-align: right;
+    font-family: Rubik;
+    font-weight:400;
+    padding:10px;
+}

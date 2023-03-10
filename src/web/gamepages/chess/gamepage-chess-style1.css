@@ -1,0 +1,42 @@
+:root {
+    --stylePrimaryColor1: rgb(200, 123, 0);
+    --styleSecondaryColor1: rgb(235, 178, 21);
+}
+
+body {
+    background-color:#111519;
+    height:3000px;
+}
+div {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+    font-size:20px;
+}
+img {
+    height:80px; width:80px;
+}
+
+.board {
+    height:640px; width:640px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.file1 {
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.file2 {
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.darksquare {
+    height:80px; width:80px;
+    background-color: #B58863;
+}
+.lightsquare{
+    height:80px; width:80px;
+    background-color: #F0D9B5;
+}
